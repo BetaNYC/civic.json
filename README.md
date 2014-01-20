@@ -1,5 +1,5 @@
 civic.json - A standard metadata specification for civic technology projects
-This file lives at 
+This file lives at https://github.com/BetaNYC/civic.json
 
 1-Purpose
 
