@@ -26,11 +26,11 @@ In theory, if civic technology groups adopt this standard, it will be possible t
 ## Key/Value Specification
 1. `status` - text indicating the status of the project.  Any text is allowed, but a selection from the recommended values is advised:
 
-   * "Ideation" - Brainstorming phase
-   * "Alpha" - Brainstorming phase
-   * "Beta" - Brainstorming phase
-   * "Production" - Finished Product, development ongoing
-   * "Archival" - Finished Product, development ongoing
+   * `"Ideation"` - Brainstorming phase
+   * `"Alpha"` - Brainstorming phase
+   * `"Beta"` - Brainstorming phase
+   * `"Production"` - Finished Product, development ongoing
+   * `"Archival"` - Finished Product, development ongoing
 		
 2. `thumbnailUrl` - a url to an image associated with the project listing
 3. `bornAt` - text indicating the name of the event the project was conceived at, if any.  Any text is allowed.
@@ -43,10 +43,10 @@ In theory, if civic technology groups adopt this standard, it will be possible t
 
 6. `type` - text describing the type of project.  Any text is allowed, but a selection from the recommended values is advised:
 
-   * "Web App"
-   * "Mobile App"
-   * "Policy Document"
-   * "Dataset"
+   * `"Web App"`
+   * `"Mobile App"`
+   * `"Policy Document"`
+   * `"Dataset"`
 
 7. `needs` - an array of "need" objects.  There is no limit to the number of needs included in a project.
 8. `need` - text indicating a need of the project.  This can be a skillset that is needed, or any other resource.  Any text is allowed.
