@@ -1,6 +1,6 @@
 **UNDER DEVELOPMENT**
 
-This standard is still being refined. [Join in on the discussion!](https://github.com/chriswhong/betanyc-projects-list/issues/5)
+This standard is still being refined.
 
 ---
 
