@@ -22,7 +22,7 @@ The API is live, and under active development by Code for America and Open City,
 ## Github fields
 
 Here are the Github-specific fields currently being gathered by civic-json-worker:
-
+```Javascript
 {
         "description": "CTA Transit API", 
         "contributors": [
@@ -55,7 +55,7 @@ Here are the Github-specific fields currently being gathered by civic-json-worke
         "homepage": "http://harperreed.github.com/transitapi/", 
         ]
     }
-
+```
 
 
 ## Extended fields
