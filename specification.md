@@ -7,11 +7,11 @@ A standard metadata specification for civic technology projects
 Civic.json is a metadata standard for civic technology projects that is intended to complement project information in a github repository.  This document will specify the keys and values that make up the civic.json data standard, and provide information about the scope, mission, and background of the standard.
 
 
-## Background 
+## Background
 
-In 2013, civic Technologists at Chicago's Opengov Hacknight created a "hands-off" projects page using the github API.  In the world of civic hacking, projects come and go, and there is a risk of user-maintained projects pages to become stale.  The intent was to make a "stupid simple" projects page, where all of the data came from github repositories, where "...humans will be responsible for one thing: deciding what gets tracked."  
+In 2013, civic Technologists at Chicago's Opengov Hacknight created a "hands-off" projects page using the github API.  In the world of civic hacking, projects come and go, and there is a risk of user-maintained projects pages to become stale.  The intent was to make a "stupid simple" projects page, where all of the data came from github repositories, where "...humans will be responsible for one thing: deciding what gets tracked."
 
-The standard set of api-queryable attributes on a github repo includes name, description, contributors, creation and update info, etc, but is missing several key elements that would be useful to a projects listing.  Among these are a thumbnail photo, category tags, type of project(web, mobile, policy doc, dataset, etc).  
+The standard set of api-queryable attributes on a github repo includes name, description, contributors, creation and update info, etc, but is missing several key elements that would be useful to a projects listing.  Among these are a thumbnail photo, category tags, type of project(web, mobile, policy doc, dataset, etc).
 
 Civic.json is meant to provide a standard set of metadata that resides in a common location in all repos and is accessible via the github api.  Individual project owners can create and update civic.json at will, so the projects pages can remain hands-off.
 
@@ -31,7 +31,7 @@ In theory, if civic technology groups adopt this standard, it will be possible t
    * `"Beta"` - Brainstorming phase
    * `"Production"` - Finished Product, development ongoing
    * `"Archival"` - Finished Product, development ongoing
-		
+
 2. `thumbnailUrl` - a url to an image associated with the project listing
 3. `bornAt` - text indicating the name of the event the project was conceived at, if any.  Any text is allowed.
 4. `geography` - text indicating the city, state, county, or other geographic entity this project is relevant to.  Any text is allowed.
